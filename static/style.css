@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #222;
+}
+
+form input, form button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Style for delete buttons */
+form button {
+    margin-left: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #c0392b;
+}
